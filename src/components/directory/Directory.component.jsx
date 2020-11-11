@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MenuItem from '../menu-items/Menu-items.component.jsx';
 import './directory.component.scss';
-
+ 
 export default class Directory extends Component {
     constructor(){
         super();
@@ -10,32 +10,32 @@ export default class Directory extends Component {
             sections: [
                 {
                     title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                    imageUrl: '/images/hats.png',
                     linkUrl: 'hats',
                     id: 1
                 },
                 {
                     title: 'jackets',
-                    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                    imageUrl: '/images/jackets.png',
                     linkUrl: '',
                     id: 2
                 },
                 {
                     title: 'sneakers',
-                    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                    imageUrl: '/images/sneakers.png',
                     linkUrl: '',
                     id: 3
                 },
                 {
                     title: 'womens',
-                    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                    imageUrl: '/images/womens.png',
                     linkUrl: '',
                     size: 'large',
                     id: 4
                 },
                 {
                     title: 'mens',
-                    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                    imageUrl: '/images/men.png',
                     linkUrl: '',
                     size: 'large',
                     id: 5
